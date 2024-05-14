@@ -81,6 +81,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
+    // create function when ran will do following
     @SuppressLint("CutPasteId", "SetTextI18n")
     private fun updateUI() {
 
@@ -94,6 +95,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    // create function when ran will do following
     private fun waterPlant() {
         sunlight -= 5
         if (sunlight < 0) sunlight = 0
@@ -102,6 +104,7 @@ class MainActivity : AppCompatActivity() {
         if (water > 100) water = 100
     }
 
+    // create function when ran will do following
     private fun fertilizePlant() {
         health += 20
         if (health > 100) health = 100
@@ -114,6 +117,7 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    // create function when ran will do following
     private fun plantInSunlight() {
 
         health -= 10
@@ -126,5 +130,4 @@ class MainActivity : AppCompatActivity() {
         if (water < 0) water = 0
 
     }
-
 }
